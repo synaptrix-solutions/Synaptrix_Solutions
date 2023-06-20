@@ -5,4 +5,19 @@ html
     font-family: 'Bebas Neue', sans-serif;
     text-align: center;
     background-image: url("https://i.ibb.co/gjBLgVZ/zyro-image-1.jpg");
-    background-size: 100% auto;}
+    background-size: 100% auto;
+}
+
+nav{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    background-color: rgb(15,15,15);
+    background: linear-gradient(0deg, rgba(15,15,15,1) 0%, rgba(97,97,97,1) 100%);;
+    padding: 20px;
+    position: sticky;
+    top: 0;
+}
+nav h1{
+    font-size: 30px;
+}
